@@ -1,18 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.1</Version>
+    <Version>0.0.3</Version>
     <Authors>Pawel Wujczyk</Authors>
     <Company>Pawel Wujczyk</Company>
     <Description>It adds echo method to asp.net core api</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.EchoApi</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
+    <PackageIcon>ProductivityTools_blue_85px_1.png</PackageIcon>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="..\Images\Nuget\ProductivityTools_blue_85px_1.png">
+      <Pack>True</Pack>
+      <PackagePath>
+      </PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
